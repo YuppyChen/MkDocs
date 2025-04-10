@@ -1,10 +1,10 @@
-site_name: 个人笔记
+site_name: 历史笔记
 site_url: https://notes.wangdoc.com
 
 plugins:
+  - search
   - literate-nav:
-      nav_file: nav.md
-      tab_length: 2
+      nav_file: docs/nav.md
 
 theme:
   name: material
